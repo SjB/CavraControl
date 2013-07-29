@@ -44,14 +44,14 @@ namespace CavraControl
 
         class CavraControl : Form
         {
-			readonly Bitmap RIGHT_MUTE_IMG = LoadResource("Cavra_Control.rightmute.png");
-        	readonly Bitmap RIGHT_SOUND_MEDIUM_MON_IMG = LoadResource("Cavra_Control.rightsoundmediumon.png");
-	        readonly Bitmap RIGHT_SOUND_ON_IMG = LoadResource("Cavra_Control.rightsoundon.png");
-	        readonly Bitmap LEFT_MUTE_IMG = LoadResource("Cavra_Control.leftmute.png");
-	        readonly Bitmap LEFT_SOUND_MEDIUM_MON_IMG = LoadResource("Cavra_Control.leftsoundmediumon.png");
-	        readonly Bitmap LEFT_SOUND_ON_IMG = LoadResource("Cavra_Control.leftsoundon.png");
-	        readonly Bitmap PLAY_ICON = LoadResource("Cavra_Control.playicon.png");
-	        readonly Bitmap STOP_ICON = LoadResource("Cavra_Control.stopicon.png");
+			readonly Bitmap RIGHT_MUTE_IMG = LoadResource("CavraControl.rightmute.png");
+        	readonly Bitmap RIGHT_SOUND_MEDIUM_MON_IMG = LoadResource("CavraControl.rightsoundmediumon.png");
+	        readonly Bitmap RIGHT_SOUND_ON_IMG = LoadResource("CavraControl.rightsoundon.png");
+	        readonly Bitmap LEFT_MUTE_IMG = LoadResource("CavraControl.leftmute.png");
+	        readonly Bitmap LEFT_SOUND_MEDIUM_MON_IMG = LoadResource("CavraControl.leftsoundmediumon.png");
+	        readonly Bitmap LEFT_SOUND_ON_IMG = LoadResource("CavraControl.leftsoundon.png");
+	        readonly Bitmap PLAY_ICON = LoadResource("CavraControl.playicon.png");
+	        readonly Bitmap STOP_ICON = LoadResource("CavraControl.stopicon.png");
 #if SET_SCREEN_POSITION
             int screenX;
             int screenY;

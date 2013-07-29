@@ -18,14 +18,14 @@ external_libs = [
 ]
 
 images = [
-    '../Resources/leftmute.png,Cavra_Control.leftmute.png',
-    '../Resources/leftsoundon.png,Cavra_Control.leftsoundon.png',
-    '../Resources/rightmute.png,Cavra_Control.rightmute.png',
-    '../Resources/rightsoundon.png,Cavra_Control.rightsoundon.png',
-    '../Resources/leftsoundmediumon.png,Cavra_Control.leftsoundmediumon.png',
-    '../Resources/playicon.png,Cavra_Control.playicon.png',
-    '../Resources/rightsoundmediumon.png,Cavra_Control.rightsoundmediumon.png',
-    '../Resources/stopicon.png,Cavra_Control.stopicon.png'
+    '../Resources/leftmute.png,CavraControl.leftmute.png',
+    '../Resources/leftsoundon.png,CavraControl.leftsoundon.png',
+    '../Resources/rightmute.png,CavraControl.rightmute.png',
+    '../Resources/rightsoundon.png,CavraControl.rightsoundon.png',
+    '../Resources/leftsoundmediumon.png,CavraControl.leftsoundmediumon.png',
+    '../Resources/playicon.png,CavraControl.playicon.png',
+    '../Resources/rightsoundmediumon.png,CavraControl.rightsoundmediumon.png',
+    '../Resources/stopicon.png,CavraControl.stopicon.png'
 ]
 
 [bld.read_assembly(x, install_path = bld.env.default_app_install_path) for x in external_libs]
